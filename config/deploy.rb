@@ -2,7 +2,7 @@
 lock '3.6.0'
 
 set :application, 'achieve'
-set :repo_url, 'git@github.com:yktgr/task_app.git'
+set :repo_url, 'https://github.com/yktgr/aws_task'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -51,4 +51,3 @@ namespace :deploy do
     end
   end
 end
-set :repo_url, 'https://github.com/yktgr/task_app'
