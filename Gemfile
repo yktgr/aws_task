@@ -30,6 +30,13 @@ gem 'enum_help'
 gem 'kaminari', '~> 0.17.0'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
+gem 'dotenv-rails'
+gem 'unicorn'
+gem 'mini_racer'
+
+
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -48,6 +55,11 @@ group :development, :test do
   gem 'faker'
   gem 'database_cleaner'
   gem 'launchy'
+  gem 'capistrano', '3.6.0' # capistranoのツール一式
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+  gem 'capistrano3-unicorn'
   end
 
 group :development do
